@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Replace this with your Discord webhook 
-const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1406654401107722420/CktYMYzpde3u8LYrmZ4QaBAJI3c4QfevPq6hH1tokp0ibQfXeWzEm7PP2ftaTZyqdZwZ";
+const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1429229051360444589/D9lBkzTclP1uCoQetm9vvk5ePw9On_omuiUhK65s5Z39JoVSmC8klFmmebQx4d_9LZ5G";
 
 // ✅ Root check
 app.get("/", (req, res) => {
